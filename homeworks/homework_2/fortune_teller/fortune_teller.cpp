@@ -53,6 +53,7 @@ int main() {
   //<ENDING> int user_name_length = user_name.length();
   cout << user_name + ", the "s +
               vect_adjectives[user_name.length() % vect_adjectives.size()] +
+              " "s+
               map_seasons.at(birth_season) + " that "s +
               vect_endings[user_name.length() % vect_endings.size()]
        << endl;
