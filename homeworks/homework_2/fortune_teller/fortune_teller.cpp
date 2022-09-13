@@ -44,9 +44,9 @@ int main() {
   vect_adjectives.emplace_back(tempo_var);
   // store in map season >> carachteristics <NOUN>
   const std::map<std::string, std::string> map_seasons = {
-      std::pair{"spring", " STL guru"}, std::pair{"summer", " C++ expert"},
-      std::pair{"autumn", " coding beast"},
-      std::pair{"winter", " software design hero"}};
+      std::pair{"spring", "STL guru"}, std::pair{"summer", "C++ expert"},
+      std::pair{"autumn", "coding beast"},
+      std::pair{"winter", "software design hero"}};
   // Use the modulo division by the size of the array of your adjectives on the
   // length of the provided <NAME> to get an index that you can use to get an
   // adjective from your array of adjectives <NAME>, the <ADJECTIVE> <NOUN> that
